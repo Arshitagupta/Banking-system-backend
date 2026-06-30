@@ -6,10 +6,11 @@ function connectDb() {
                         console.log("Connected to db");
                 })
                 .catch(err => {
-                        console.log("error connecting to db");
+                        console.log("error connecting to db", err);
                         process.exit(1);
                 })
 
+                
         
 }
 
